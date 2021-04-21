@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { MainApp } from './components/09-useContext/MainApp';
+// import { MainApp } from './components/09-useContext/MainApp';
 // import { TodoApp } from './components/08-useReducer/TodoApp';
 // import { Padre } from './components/07-tarea-memo/Padre';
 // import { CallbackHook } from './components/06-memos/CallbackHook';
@@ -14,7 +14,7 @@ import { MainApp } from './components/09-useContext/MainApp';
 // import { SimpleForm } from './components/02-useEfect/SimpleForm';
 // import { CounterApp } from './components/01-useState/CounterApp';
 // import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook';
-// import { HookApp } from './HookApp';
+import { HookApp } from './HookApp';
 // import GifExpertApp from './GifExpertApp';
 import './index.css';
 // import PrimerApp from './PrimerApp';
@@ -27,7 +27,7 @@ ReactDOM.render(
     {/* <CouterApp ></CouterApp> */}
     {/* <PrimerApp saludo="Hola soy, Goku"></PrimerApp> */}
     {/* <GifExpertApp></GifExpertApp> */}
-    {/* <HookApp></HookApp> */}
+    <HookApp></HookApp>
     {/* <CounterApp></CounterApp> */}
     {/* <CounterWithCustomHook></CounterWithCustomHook> */}
     {/* <SimpleForm></SimpleForm> */}
@@ -41,7 +41,7 @@ ReactDOM.render(
     {/* <CallbackHook></CallbackHook> */}
     {/* <Padre></Padre> */}
     {/* <TodoApp></TodoApp> */}
-    <MainApp></MainApp>
+    {/* <MainApp></MainApp> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
